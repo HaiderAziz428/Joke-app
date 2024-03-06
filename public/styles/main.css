@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:yellow;
+}
+.container{
+    width: 80vmin;
+    padding: 30px 20px;
+    background-color: black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(97,63,0,0,4);
+
+}
+span{
+    display: block;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+/* Style for the select dropdown */
+select {
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 200px; /* adjust as needed */
+    outline: none; /* removes default outline on focus */
+  }
+  
+  /* Style for individual options */
+  option {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style for selected option */
+  option:checked {
+    background-color: #007bff; /* change to your preferred color */
+    color: #fff; /* change to your preferred color */
+  }
+  /* Button style */
+.button {
+    background-color: #FFD700; /* Yellow */
+    color: #000; /* Black */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .button:hover {
+    background-color: #FFC107; /* Darker Yellow on Hover */
+  }
+  p{
+    
+    font-family: "Comic Sans MS", cursive; /* Use a playful font family */
+    font-size: 18px; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height for readability */
+    color: #fff; /* Color of the text */
+    margin-bottom: 20px; /* Spacing between paragraphs */
+  }
+  label {
+    margin: 20px 0px 20px 0px;
+    display: block; /* Ensure labels are displayed as block elements */
+    font-size: 16px; /* Adjust font size as needed */
+    color: #fff; /* Color of the label text */
+    margin-bottom: 5px; /* Spacing between labels */
+  }
+  
